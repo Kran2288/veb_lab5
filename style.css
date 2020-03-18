@@ -1,0 +1,87 @@
+html {
+    margin: 0;
+}
+
+* {
+    margin: 0;
+}
+
+header {
+    background-color: #445162;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__text {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__text h1 {
+    color: white;
+    font-size: 2cm;
+    margin-bottom: 20%;
+}
+
+.header__text li {
+    color: white;
+    font-size: 0.7cm;
+}
+
+.header_picture img {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 800px;
+    height: 500px;
+}
+
+/* Основная часть */
+
+.main__head {
+    display: grid;
+    justify-items: center;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1cm;
+}
+
+.main__head h3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 1.2cm;
+    margin: 1cm;
+}
+
+.first-scrin {
+    display: flex;
+    flex-direction: column;
+}
+
+.pict1 {
+    height: 400px;
+    width: 700px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.first-scrin h4 {
+    margin: 0.5cm;
+    text-align: center;
+    font-size: 1cm;
+}
+
+
+.first-scrin p {
+    text-align: center;
+    font-size: 0.5cm;
+}
+
+second-scrin {
+    display: flex;
+    flex-direction: column;
+}
+
+.second-scrin img {
+    justify-content: center;
+}
