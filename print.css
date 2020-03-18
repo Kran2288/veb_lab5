@@ -69,4 +69,21 @@
     input {
         display: none;
     }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: "("attr(href)")";
+    }
+
+    a[href="http://www.google.com"]:after {
+        content: "";
+    }
+
+    textarea {
+        width: 300px;
+    }
 }
