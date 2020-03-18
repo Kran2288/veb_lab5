@@ -53,7 +53,7 @@ header {
     margin: 1cm;
 }
 
-.first-scrin {
+.scrin {
     display: flex;
     flex-direction: column;
 }
@@ -65,23 +65,62 @@ header {
     justify-content: center;
 }
 
-.first-scrin h4 {
+.pict2 {
+    height: 400px;
+    width: 700px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.pict3 {
+    height: 400px;
+    width: 700px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.pict4 {
+    height: 400px;
+    width: 700px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.scrin h4 {
     margin: 0.5cm;
     text-align: center;
     font-size: 1cm;
 }
 
-
-.first-scrin p {
+.scrin p {
     text-align: center;
     font-size: 0.5cm;
 }
 
-second-scrin {
+/* Подвал */
+footer {
+    background-color: #445162;
+}
+
+.footer__h3 {
+    text-align: center;
+    font-size: 1cm;
+    padding-top: 1cm;
+}
+
+.footer__footer {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+}
+
+.form {
     display: flex;
     flex-direction: column;
 }
 
-.second-scrin img {
-    justify-content: center;
+input {
+    margin-top: 1cm;
+    width: 500px;
+    border: 1px solid white;
 }
