@@ -1,89 +1,103 @@
 @media print {
-    @page {
-        margin: 1cm;
-    }
+  @page {
+    margin: 1cm;
+  }
 
-    header {
-        -webkit-print-color-adjust: exact;
-        print-color-adjust: exact;
-    }
+  header {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
 
-    .header_picture img {
-        width: 300px;
-        height: 200px;
-    }
+  .header_picture img {
+    width: 300px;
+    height: 200px;
+  }
 
-    .header__text h1 {
-        font-size: 1.5cm;
-    }
+  .header__text h1 {
+    font-size: 1.5cm;
+  }
 
-    .header__text li {
-        font-size: 0.5cm;
-    }
+  .header__text li {
+    font-size: 0.5cm;
+  }
+  .main__head {
+    display: grid;
+    justify-items: center;
+    justify-content: space-around;
+    grid-template-columns: 11cm 11cm;
+    grid-gap: 0.3cm;
+  }
 
-    .pict1 {
-        width: 600px;
-        height: 300px;
-    }
+  .pict1 {
+    width: 10cm;
+    height: 7cm;
+    margin: 0 auto;
+  }
 
-    .pict2 {
-        width: 600px;
-        height: 300px;
-    }
+  .pict2 {
+    width: 10cm;
+    height: 7cm;
+    margin: 0 auto;
+  }
 
-    .pict3 {
-        width: 600px;
-        height: 300px;
-    }
+  .pict3 {
+    width: 10cm;
+    height: 7cm;
+    margin: 0 auto;
+  }
 
-    .pict4 {
-        width: 600px;
-        height: 300px;
-    }
+  .pict4 {
+    width: 10cm;
+    height: 7cm;
+    margin: 0 auto;
+  }
 
-    .scrin h4 {
-        margin: 0.5cm;
-        text-align: center;
-        font-size: 0.7cm;
-    }
+  .scrin h4 {
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 0.7cm;
+  }
 
-    .scrin p {
-        text-align: center;
-        font-size: 0.5cm;
-        width: 10cm;
-        margin-left: 4cm;
-    }
+  .scrin p {
+    text-align: center;
+    font-size: 0.5cm;
+    width: 10cm;
+    margin: 0 auto;
+  }
 
-    .right-scrin {
-        margin: 0;
-    }
+  .right-scrin {
+    text-align: center;
+    margin: 0 auto;
+  }
 
-    main {
-        page‐break‐after: always;
-    }
+  main {
+    page‐break‐after: always;
+  }
 
-    .footer__h3 {
-        page-break-before: always;
-    }
+  .footer__h3 {
+    page-break-before: always;
+  }
 
-    input {
-        display: none;
-    }
+  input {
+    display: none;
+  }
 
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
 
-    a[href]:after {
-        content: "("attr(href)")";
-    }
+  a[href]:after {
+    content: "(" attr(href) ")";
+  }
 
-    a[href="http://www.google.com"]:after {
-        content: "";
-    }
+  a[href="http://www.google.com"]:after {
+    content: "";
+  }
 
-    textarea {
-        width: 300px;
-    }
+  textarea {
+    width: 300px;
+  }
 }

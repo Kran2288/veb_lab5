@@ -1,172 +1,170 @@
 html {
-    margin: 0;
+  margin: 0;
 }
 
 * {
-    margin: 0;
+  margin: 0;
 }
 
 header {
-    background-color: #445162;
-    display: flex;
-    justify-content: space-around;
+  background-color: #445162;
+  display: flex;
+  justify-content: space-around;
 }
 
 .header__text {
-    align-self: center;
-    display: flex;
-    flex-direction: column;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .header__text h1 {
-    color: white;
-    font-size: 2cm;
-    margin-bottom: 20%;
+  color: white;
+  font-size: 2cm;
+  margin-bottom: 20%;
 }
 
 .header__text li {
-    color: white;
-    font-size: 0.7cm;
+  color: white;
+  font-size: 0.7cm;
 }
 
 .header_picture img {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    width: 800px;
-    height: 500px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 800px;
+  height: 500px;
 }
 
 /* Основная часть */
 
 .main__head {
-    display: grid;
-    justify-items: center;
-    justify-content: space-around;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1cm;
+  display: grid;
+  justify-items: center;
+  justify-content: space-around;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0.3cm;
 }
 
 .main__head h3 {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    font-size: 1.2cm;
-    margin: 1cm;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  font-size: 1.2cm;
+  margin: 1cm;
 }
 
 .scrin {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .pict1 {
-    height: 400px;
-    width: 700px;
-    margin: 0 auto;
-    justify-content: center;
+  height: 400px;
+  width: 700px;
+  margin: 0 auto;
 }
 
 .pict2 {
-    height: 400px;
-    width: 700px;
-    margin: 0 auto;
-    justify-content: center;
+  height: 400px;
+  width: 700px;
+  margin: 0 auto;
 }
 
 .pict3 {
-    height: 400px;
-    width: 700px;
-    margin: 0 auto;
-    justify-content: center;
+  height: 400px;
+  width: 700px;
+  margin: 0 auto;
 }
 
 .pict4 {
-    height: 400px;
-    width: 700px;
-    margin: 0 auto;
-    justify-content: center;
+  height: 400px;
+  width: 700px;
+  margin: 0 auto;
 }
 
 .scrin h4 {
-    margin: 0.5cm;
-    text-align: center;
-    font-size: 1cm;
+  margin: 0.5cm;
+  text-align: center;
+  font-size: 1cm;
 }
 
 .scrin p {
-    text-align: center;
-    font-size: 0.5cm;
+  text-align: center;
+  font-size: 0.5cm;
 }
 
 /* Подвал */
 footer {
-    background-color: #445162;
+  background-color: #445162;
 }
 
 .footer__h3 {
-    text-align: center;
-    font-size: 1cm;
-    padding-top: 1cm;
+  text-align: center;
+  font-size: 1cm;
+  padding-top: 1cm;
 }
 
 .footer__footer {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .form {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 input {
-    margin-top: 1cm;
-    width: 500px;
-    height: 50px;
-    border: 1px solid white;
-    border-radius: 10px;
+  margin-top: 1cm;
+  width: 500px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 10px;
 }
 
 textarea {
-    margin-top: 1cm;
-    width: 500px;
-    height: 100px;
-    border-radius: 10px;
+  margin-top: 1cm;
+  width: 500px;
+  height: 100px;
+  border-radius: 10px;
 }
 
 button {
-    width: 150px;
-    height: 50px;
-    border-radius: 10px;
-    font-size: 0.6cm;
-    margin: 0 auto;
-    margin-top: 1cm;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 0.6cm;
+  margin: 0 auto;
+  margin-top: 1cm;
 }
 
 .data {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .data p {
-    margin-top: 1cm;
-    font-size: 0.7cm;
-    color: #fff;
+  margin-top: 1cm;
+  font-size: 0.7cm;
+  color: #fff;
 }
 
 .email {
-    margin-top: 1cm;
+  margin-top: 1cm;
 }
 
 .email:hover {
-    border-bottom: 1px solid pink;
+  border-bottom: 1px solid pink;
 }
 
 .email a {
-    text-decoration: none;
-    color: black;
-    font-size: 0.6cm;
+  text-decoration: none;
+  color: black;
+  font-size: 0.6cm;
 }
 
 .email a:hover {
-    color: pink;
+  color: pink;
 }
